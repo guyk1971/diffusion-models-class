@@ -64,3 +64,21 @@ Members of the 🤗 community have begin translating the course! We're planning 
 |:------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|
 | [Chinese](https://github.com/darcula1993/diffusion-models-class-CN/blob/main/README_CN.md)     | [@darcula1993](https://github.com/darcula1993) [@XhrLeokk](https://github.com/XhrLeokk)|
 | [Japanese](https://github.com/eltociear/diffusion-models-class-JA/blob/main/README_JA.md)     | [@eltociear](https://github.com/eltociear)|
+
+
+## Environemt
+to run the notebooks, use the dm environment installed on guy-x.
+this repo includes a `dm.yaml` file that you can use to build the env 
+in order to generate it from scratch, follow these instructions
+
+- install miniconda following the instructions from [tensorflow page](https://www.tensorflow.org/install/pip#step-by-step_instructions):
+  ```
+  curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh 
+  
+  bash Miniconda3-latest-Linux-x86_64.sh
+  ```
+
+- then you can build the environment using `dm.yaml` as follows:
+  ```
+  conda env create -f dm.yaml
+  ```
