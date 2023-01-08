@@ -68,4 +68,15 @@ AI Coffee Break video on Diffusion Models: https://www.youtube.com/watch?v=344w5
 
 Yannic Kilcher Video on DDPMs: https://www.youtube.com/watch?v=W-O7AZNzbzQ
 
+[what are diffusion models?](https://youtu.be/fbLgFrlTnGU) - A brief walkthrough the family of papers on Diffusion models 
+
+[Diffusion models - math explained](https://youtu.be/HoKDTa5jHvg) - walk through the math derivation
+
+[Lilian Weng's blog on Diffusion Models](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
+
+[Getting started wuth Stable Diffusion](https://youtu.be/epktKtLWgHQ) - video that walks through HF implementation (probably in high level)
+
+[DDPM - ML coding series](https://youtu.be/y7J6sSO1k50)
+
+[Stable Diffusion - ML coding series](https://youtu.be/f6PtJKdey8E)
 Found more great resources? Let us know and we'll add them to this list.
