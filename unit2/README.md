@@ -66,6 +66,11 @@ Following the examples in the _**Fine-tuning and Guidance**_ notebook, fine-tune
 [Denoising Diffusion Implicit Models](https://arxiv.org/abs/2010.02502) - Introduced the DDIM sampling method (used by DDIMScheduler)
  
 [GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models](https://arxiv.org/abs/2112.10741) - Introduced methods for conditioning diffusion models on text
+ - youtube explanation:
+    - [Yannic Kilcher](https://youtu.be/gwI6g1pBD84)
+    - [AI Epiphany](https://youtu.be/lvv4N2nf-HU)
+ - code : [openai](https://github.com/openai/glide-text2im)
+ - [Colab](https://colab.research.google.com/github/woctezuma/glide-text2im-colab/blob/main/text2im.ipynb#scrollTo=0vL5aXMgNOHF) 
 
 [eDiffi: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers](https://arxiv.org/abs/2211.01324) - Shows how many different kinds of conditioning can be used together to give even more control over the kinds of samples generated
 
