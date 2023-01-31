@@ -3,18 +3,20 @@ conda update -n base -c defaults conda
 conda create -n dm python=3.9
 conda activate dm
 
-# conda install -c conda-forge cudatoolkit=11.3 cudnn=8.1.0
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
+#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
 pip install --upgrade pip
 pip install tensorflow
 
-conda install -c anaconda jupyter
-conda install -c conda-forge matplotlib jupyter_contrib_nbextensions jupyterthemes
-conda install pandas scikit-learn tqdm
 conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
-
-
+conda install -c anaconda jupyter
+conda install pandas scikit-learn tqdm
 pip install opencv-python seaborn
-pip install diffusers datasets transformers accelerate ftfy pyarrow
+pip install datasets transformers accelerate ftfy pyarrow
 pip install wandb
 pip install open-clip-torch
+
+# installing diffusers
+# move to clones folder
+git clone https://github.com/huggingface/diffusers.git
+cd diffusers/
+pip install .
